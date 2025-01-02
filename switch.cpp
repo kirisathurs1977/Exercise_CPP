@@ -18,6 +18,9 @@ int main() {
                 case 0:
                     cout << "Inner Switch Case 0\n";
                     break;
+                case 1:
+                    cout << "Inner Switch Case 1\n";
+                    break;
                 default:
                     cout << "Default Case of Inner Loop\n";
                     break;
