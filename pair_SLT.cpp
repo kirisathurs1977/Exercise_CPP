@@ -5,9 +5,10 @@ using namespace std;
 
 int main()
 { 
-    pair<int,int>pr;
-    pr={4,5};
+    pair<pair<int,int>,int>pr;
+    auto pr = make_pair((2,3),6);
+   // pr={4,5};
     pr.second=7;
-    cout<<pr.first<<endl;
+    cout<<pr.first.first<<endl;
     cout<<pr.second<<endl;
 }
